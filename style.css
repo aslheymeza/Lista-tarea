@@ -9,7 +9,6 @@ body {
   border: 1px solid rgba(207, 203, 203, 0.699);
   border-radius: 10px;
   width: 500px;
-  height: 500px;
 }
 
 h2 {
@@ -30,13 +29,13 @@ h2 {
 }
 
 
-#display{
+#display {
   width: 50%;
   margin-left: 20px;
   border: black solid 1px;
 }
 
-#agregar{
+#agregar {
   color: white;
   background-color: rgb(52, 85, 218);
   padding-left: 15px;
@@ -44,16 +43,35 @@ h2 {
   border-radius: 10px;
 }
 
-.container2{
+/* .container2{
   border: 1px solid rgb(153, 152, 152);
   margin-top: 10px;
   margin-bottom: 10px;
   width: 450px;
   height: 350px;
   margin-left: 20px;
+} */
+
+#tarealist {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 19px;
+
 }
 
-#eliminar{
+li {
+  border: 1px solid black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  border-radius: 6px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+
+#eliminar {
   margin-left: 20px;
   margin-right: 60px;
   border-radius: 10px;
@@ -61,15 +79,20 @@ h2 {
   background-color: rgb(52, 85, 218);
 }
 
-#vaciar{
+#vaciar {
   margin-right: 70px;
   border-radius: 10px;
   color: white;
   background-color: brown;
 }
 
-#guardar{
+#guardar {
   border-radius: 10px;
   color: white;
   background-color: rgb(51, 231, 51);
+}
+
+.delete{
+  color: white;
+  background-color: brown;
 }
